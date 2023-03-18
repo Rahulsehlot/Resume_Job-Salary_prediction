@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Analyzer</title>
+</head>
+<body>
+    <h1>Resume Analyzer</h1>
+    <p>Please upload your resume in PDF format:</p>
+    <form action="/results" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf">
+        <select id="algorithm" name="algorithm">
+        <option value="Decision Tree">Decision Tree</option>
+        <option value="Random Forest">Random Forest</option>
+      </select>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
